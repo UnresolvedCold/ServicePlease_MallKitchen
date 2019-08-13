@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/style_dialog_default"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/HelpInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+
+            <ImageView
+                android:id="@+id/Help_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:src="@drawable/icon_cross"
+                android:padding="5dp"
+                android:background="@drawable/style_buttons2"
+                android:layout_marginEnd="100dp"/>
+            <ImageView
+                android:id="@+id/Help_Okay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Okay"
+                android:padding="5dp"
+                android:background="@drawable/style_buttons2"
+                android:src="@drawable/icon_check"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

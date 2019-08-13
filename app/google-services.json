@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "64340928550",
+    "firebase_url": "https://serviceplease-25bf6.firebaseio.com",
+    "project_id": "serviceplease-25bf6",
+    "storage_bucket": "serviceplease-25bf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64340928550:android:4613daf10a6a30f1",
+        "android_client_info": {
+          "package_name": "com.schwifty.serviceplease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64340928550-ig4sb2uh0cmm3rnr4ug1i7s209lei23k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.schwifty.serviceplease",
+            "certificate_hash": "3270e336781b31267fb57cdc198cef6869d787bb"
+          }
+        },
+        {
+          "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxmUxJY19c_upyuX5vnw1m8ss5o5yc9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64340928550-d4u82i4j248dbptvditeliae6f90vmi4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.schwifty.serviceplease"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64340928550:android:e385b5b4b87a0d54",
+        "android_client_info": {
+          "package_name": "com.schwifty.serviceplease_dining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64340928550-9qia34s4tqet5sbqh1uf93oenagjm54k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.schwifty.serviceplease_dining",
+            "certificate_hash": "3270e336781b31267fb57cdc198cef6869d787bb"
+          }
+        },
+        {
+          "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxmUxJY19c_upyuX5vnw1m8ss5o5yc9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64340928550-d4u82i4j248dbptvditeliae6f90vmi4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.schwifty.serviceplease"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64340928550:android:202a183c1337c215",
+        "android_client_info": {
+          "package_name": "com.schwifty.serviceplease_kitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64340928550-m57dk9ulmael89fb2oi64lph46222662.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.schwifty.serviceplease_kitchen",
+            "certificate_hash": "3270e336781b31267fb57cdc198cef6869d787bb"
+          }
+        },
+        {
+          "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxmUxJY19c_upyuX5vnw1m8ss5o5yc9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64340928550-d4u82i4j248dbptvditeliae6f90vmi4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.schwifty.serviceplease"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64340928550:android:47ed12639476e3f3",
+        "android_client_info": {
+          "package_name": "com.schwifty.serviceplease_mallkitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64340928550-vjuac3kh2ivdpl5blr5iedcjh8oigvka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.schwifty.serviceplease_mallkitchen",
+            "certificate_hash": "3270e336781b31267fb57cdc198cef6869d787bb"
+          }
+        },
+        {
+          "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxmUxJY19c_upyuX5vnw1m8ss5o5yc9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64340928550-vivdg4r5l970v38cqe133rrk2a2k16d3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64340928550-d4u82i4j248dbptvditeliae6f90vmi4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.schwifty.serviceplease"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

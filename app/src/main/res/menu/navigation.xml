@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/activeOrders"
+        android:icon="@drawable/icon_new"
+        android:title="@string/title_ActiveOrders" />
+
+    <item
+        android:id="@+id/processingOrders"
+        android:icon="@drawable/icon_processing"
+        android:title="@string/title_ProcessingOrders" />
+
+    <item
+        android:id="@+id/finishedOrders"
+        android:icon="@drawable/icon_finished"
+        android:title="@string/title_FinishedOrders" />
+
+
+</menu>

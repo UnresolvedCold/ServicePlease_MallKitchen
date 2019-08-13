@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#F5F5F5</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorMain">#7BC246</color>
+
+    <color name="colorButton">#7BC246</color>
+    <color name="colorBar">#F5F5F5</color>
+    <color name="colorBackGround">#E4E4E4</color>
+    <color name="colorTextMain">#0C0C0C</color>
+    <color name="colorTextBack">#7C7C7C</color>
+    <color name="colorIcons">#636363</color>
+
+    <color name="colorMainText">#000000</color>
+    <color name="colorBackText">#3F3F3F</color>
+
+    <color name="TextColor">#000000</color>
+
+    <color name="colorMainDark">#5B8F33</color>
+    <color name="colorButton2">#BAE6FF</color>
+    <color name="colorButton2Outline">#97DEFF</color>
+
+    <color name="colorHelp">#FFD800</color>
+    <color name="colorPay">#FF0000</color>
+    <color name="colorSeatOccupied">#209600</color>
+
+</resources>
