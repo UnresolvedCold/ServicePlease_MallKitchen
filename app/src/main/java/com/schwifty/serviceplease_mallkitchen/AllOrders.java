@@ -112,24 +112,27 @@ public class AllOrders extends AppCompatActivity implements DatePickerDialog.OnD
             {
                 for(DataSnapshot snapshot:dataSnapshot.getChildren())
                 {
-                    String Date = snapshot.child("Date").getValue().toString();
-                    String GrandTotal = snapshot.child("GrandTotal").getValue().toString();
-                    String Invoice = snapshot.child("Invoice").getValue().toString();
+                    if(snapshot.hasChild("Date")
+                        &&snapshot.hasChild("GrandTotal")
+                    &&snapshot.hasChild("Invoice")) {
+                        String Date = snapshot.child("Date").getValue().toString();
+                        String GrandTotal = snapshot.child("GrandTotal").getValue().toString();
+                        String Invoice = snapshot.child("Invoice").getValue().toString();
 
-                    Orders order = new Orders(Date,Invoice,GrandTotal);
+                        Orders order = new Orders(Date, Invoice, GrandTotal);
 
-                    for(DataSnapshot _snapshot : snapshot.child("Items").getChildren())
-                    {
-                        String name = _snapshot.child("Item").getValue().toString();
-                        String qty = _snapshot.child("qty").getValue().toString();
-                        String price = _snapshot.child("price").getValue().toString();
-                        String UID = _snapshot.child("UID").getValue().toString();
+                        for (DataSnapshot _snapshot : snapshot.child("Items").getChildren()) {
+                            String name = _snapshot.child("Item").getValue().toString();
+                            String qty = _snapshot.child("qty").getValue().toString();
+                            String price = _snapshot.child("price").getValue().toString();
+                            String UID = _snapshot.child("UID").getValue().toString();
 
-                        order.items.add(new Items(UID,name,price,qty));
+                            order.items.add(new Items(UID, name, price, qty));
 
+                        }
+
+                        orders.add(order);
                     }
-
-                    orders.add(order);
 
                 }
 
